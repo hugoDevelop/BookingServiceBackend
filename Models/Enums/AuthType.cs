@@ -1,7 +1,7 @@
 ﻿namespace BookingServiceBackend.Models.Enums
 {
-    public enum Rol
+    public enum AuthMethod
     {
-        Admin
+        Azure
     }
 }
