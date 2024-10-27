@@ -26,7 +26,7 @@ namespace BookingServiceBackend.Utils
                 AuthScope = "api://b863ee15-3508-4086-8f5c-c58438ce4e86/usr-tst",
                 AuthClientId = "b863ee15-3508-4086-8f5c-c58438ce4e86",
                 Schema = "com.booking.app",
-                AuthRedirectUrl = "http://localhost:5173/callback",
+                AuthRedirectUrl = "http://localhost:61770/callback",
                 AuthRedirectUrlMobile = "com.booking.app://callback",
                 AuthOpenIdConfigUrl = "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration",
             };
