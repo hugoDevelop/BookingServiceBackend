@@ -35,6 +35,9 @@ Este es un proyecto enfocado en un servicio de reservas.
 3. **Acceder a la aplicación**:
    La aplicación estará disponible en `http://localhost:8080`.
 
+4. **Esperar a que cargue la base de datos**:
+   una vez que la base de datos cargue sus configuraciones, iniciar el contenedor `bookingservicebackend-1`.
+
 ## 5. Manejo y Gestión de Errores
 
 ### Tareas
