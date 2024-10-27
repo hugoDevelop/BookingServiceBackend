@@ -7,7 +7,7 @@
         public int ClienteId { get; set; }
         public int ServicioId { get; set; }
 
-        public required Cliente Cliente { get; set; }
-        public required Servicio Servicio { get; set; }
+        public Cliente? Cliente { get; set; }
+        public Servicio? Servicio { get; set; }
     }
 }

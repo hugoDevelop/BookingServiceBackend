@@ -92,7 +92,7 @@ namespace BookingServiceBackend.Middleware
             if (jsonWebTokenHandler.ValidateToken(token, tokenValidationParameters).IsValid)
             {
                 context.Items["email"] = email;
-                context.Items["companyID"] = company.Id;
+                context.Items["companyId"] = company.Id;
                 await next(context);
             }
             else

@@ -1,4 +1,5 @@
 ﻿using BookingServiceBackend.Models;
+using BookingServiceBackend.Utils;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookingServiceBackend.Data
@@ -15,7 +16,8 @@ namespace BookingServiceBackend.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configuraciones adicionales de relaciones si es necesario
+            DbInitializer dbInitializer = new(modelBuilder);
+            dbInitializer.Seed();
         }
     }
 }
